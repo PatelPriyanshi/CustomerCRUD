@@ -1,0 +1,11 @@
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\obj\Debug\Customer_Client.csproj.AssemblyReference.cache
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\obj\Debug\Customer_Client.csproj.CoreCompileInputs.cache
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\bin\Debug\Customer_Client.exe.config
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\bin\Debug\Customer_Client.exe
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\bin\Debug\Customer_Client.pdb
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\bin\Debug\Customer_WCFService.dll
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\bin\Debug\Customer_WCFService.pdb
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\bin\Debug\Customer_WCFService.dll.config
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\obj\Debug\Customer.5E6A6856.Up2Date
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\obj\Debug\Customer_Client.exe
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_Client\obj\Debug\Customer_Client.pdb
