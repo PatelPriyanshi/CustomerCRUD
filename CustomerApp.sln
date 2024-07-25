@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerApp", "CustomerApp\CustomerApp.csproj", "{6798555C-18B0-4417-B657-6F6362C7D57D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{E9A9F184-B96D-412F-949E-9F897B278CEB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\CustomerDb.bak = ..\..\..\..\..\..\..\Program Files\Microsoft SQL Server\MSSQL15.MSSQLSERVER\MSSQL\Backup\CustomerDb.bak
+		SQL Table.png = SQL Table.png
+		TextFile1.txt = TextFile1.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer_WCFService", "Customer_WCFService\Customer_WCFService.csproj", "{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Customer_Client", "Customer_Client\Customer_Client.csproj", "{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}"
+	ProjectSection(ProjectDependencies) = postProject
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C} = {CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Debug|x86.Build.0 = Debug|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Release|x86.ActiveCfg = Release|Any CPU
+		{6798555C-18B0-4417-B657-6F6362C7D57D}.Release|x86.Build.0 = Release|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Debug|x86.Build.0 = Debug|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Release|x86.ActiveCfg = Release|Any CPU
+		{CFE1DB41-5C47-41DC-946A-8B1A22AD9E5C}.Release|x86.Build.0 = Release|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Debug|x86.Build.0 = Debug|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Release|x86.ActiveCfg = Release|Any CPU
+		{69D61FFD-77EE-4F85-B73F-A8E98ECA9067}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A36BE88B-7A84-4CEE-9F5E-5AE3E60BD1A2}
+	EndGlobalSection
+EndGlobal
