@@ -1,0 +1,7 @@
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\bin\Customer_WCFService.dll.config
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\bin\Customer_WCFService.dll
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\bin\Customer_WCFService.pdb
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\obj\Debug\Customer_WCFService.csproj.AssemblyReference.cache
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\obj\Debug\Customer_WCFService.csproj.CoreCompileInputs.cache
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\obj\Debug\Customer_WCFService.dll
+C:\Users\priyanshi.patel\Desktop\Important\Reading\Code Practice\CustomerApp\Customer_WCFService\obj\Debug\Customer_WCFService.pdb
