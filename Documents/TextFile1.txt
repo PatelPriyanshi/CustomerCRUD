@@ -1,0 +1,41 @@
+Notes:
+
+1. For Web api project (CustomerApp):
+---------------------------------------------------------
+Required tools : Postman, Visual studio
+
+-> Need to generate access token first, to access webAPIs. allowed emails to generate tokens are
+	1. priyanshi21.patel@gmail.com
+	2. hardik.trivedi@alterahealth.com
+	3. dishant.buch@alterahealth.com
+
+1. using postman generate access token using http://localhost:5231/api/Token/priyanshi21.patel@gmail.com
+2. use that access token for use of webAPIs, add this token in authroization part -> type Bearer token and enter token in it.
+3. for create user enter http://localhost:5231/api/CreateCustomers and add generated token
+4. add proper body portion as ex.
+{
+  "id": 0,
+  "name": "string",
+  "email": "user@example.com",
+  "city": "string"
+}
+5. to get customers use http://localhost:5231/api/GetCustomers and send it, you will get stored customers
+6. if want to get customers by id then use http://localhost:5231/api/GetCustomers/{id} and send it, you will get stored customer
+7. to update customer record http://localhost:5231/api/UpdateCustomers/1 add body portion as create method
+8. to delete customer record http://localhost:5231/api/DeleteCustomers/1 and send it, it will delete record
+
+[Note: 1. Before sending check Http method in postman
+	   2. In swagger we can see all the webAPIs in detail(to check it just run the project CustomerApp)]
+
+
+2. For WCF service and client project (Customer_WCFService and Customer_Client):
+----------------------------------------------------------------------------------------
+Required tools : SQL serve management studio, Visual studio
+
+1. Customer_WCFService include ICustomerService and CustomerService files
+2. Customer_Client is client console app to run services, Reference of Customer_WCFService (http://localhost:54030/CustomerService.svc) service in it as a 
+   CustomerService_Test
+
+--> to run WCF services
+	1. set new table and database (SQL db backup file and photo is available in CustomerApp/Documents) in SQL sever management studio. 
+	1. run Customer_Client app and follow steps asked in console app one by one to test services
